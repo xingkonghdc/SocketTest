@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SocketTest</string>
+    <string name="socket_server_start">启动服务端</string>
+    <string name="socket_conn">开始连接</string>
+    <string name="socket_disconnect">断开连接</string>
+    <string name="socket_send_msg">发送</string>
 </resources>
