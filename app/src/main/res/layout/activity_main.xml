@@ -21,14 +21,15 @@
         android:id="@+id/socket_disconnect_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/socket_conn"
+        android:text="@string/socket_disconnect"
         android:layout_toRightOf="@+id/socket_conn_btn"
         android:layout_marginLeft="5dp"/>
 
     <EditText
         android:id="@+id/socket_send_msg_et"
         android:layout_width="300dp"
-        android:layout_height="30dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
         android:layout_below="@+id/socket_server_start_btn"/>
 
     <Button

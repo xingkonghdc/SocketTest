@@ -20,10 +20,12 @@ public class SocketServerService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
+        SocketServerManager.getInstance().startSocketServer();
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+
         return super.onStartCommand(intent, flags, startId);
     }
 }
