@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button socket_server_start_btn,socket_conn_btn,socket_disconnect_btn,socket_send_msg_btn;
     private static TextView socket_msg_tv;
     private EditText socket_send_msg_et;
-    private String mIpAddress;
 
     @SuppressLint("HandlerLeak")
     public static Handler mHandler =new Handler(){
