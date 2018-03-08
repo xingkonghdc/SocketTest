@@ -82,7 +82,7 @@ public class SocketServerManager {
                 bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));// 获得输入流对象
                 bufferedWriter = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));// 创建输出流对象
                 // 客户端只要一连到服务器，便发送连接成功的信息
-                message = "服务器地址：" + this.socket.getInetAddress();
+                message = "服务器地址为：" + this.socket.getInetAddress();
                 this.sendMessage(message);
                 message = "当前连接的客户端总数:" + mClientList.size();
                 this.sendMessage(message);
